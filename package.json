@@ -1,13 +1,14 @@
 {
-  "name": "statuslogger",
+  "name": "statusscraper",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A status scrapper app for multiple social media",
+  "main": "lib/server.js",
+  "repository": "https://github.com/AlaaDesouky/status-scraper",
   "scripts": {
     "dev": "nodemon -r esm lib/server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alaa Desouky",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
