@@ -5,6 +5,7 @@
   "main": "lib/server.js",
   "repository": "https://github.com/AlaaDesouky/status-scraper",
   "scripts": {
+    "start": "node -r esm lib/server.js",
     "dev": "nodemon -r esm lib/server.js"
   },
   "keywords": [],
